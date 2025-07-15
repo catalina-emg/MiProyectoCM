@@ -1,4 +1,4 @@
-import { CommonModule } from '@angular/common';
+
 import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
@@ -13,7 +13,7 @@ interface Alumno{
   selector: 'app-checkbox',
   templateUrl: './checkbox.page.html',
   styleUrls: ['./checkbox.page.scss'],
-  imports: [IonicModule, CommonModule, RouterModule, ComponentesModule],
+  imports: [IonicModule, RouterModule, ComponentesModule],
 })
 
 

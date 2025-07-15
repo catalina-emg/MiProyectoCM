@@ -1,4 +1,4 @@
-import { CommonModule } from '@angular/common';
+
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
@@ -8,7 +8,7 @@ import { ComponentesModule } from 'src/app/componentes/componentes.module';
   selector: 'app-input',
   templateUrl: './input.page.html',
   styleUrls: ['./input.page.scss'],
-  imports: [IonicModule, CommonModule, RouterModule, ComponentesModule, FormsModule],
+  imports: [IonicModule, RouterModule, ComponentesModule, FormsModule],
 })
 export class InputPage implements OnInit {
   alumno = {

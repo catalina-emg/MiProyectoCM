@@ -1,4 +1,4 @@
-import { CommonModule } from '@angular/common';
+
 import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
@@ -7,7 +7,7 @@ import { IonicModule } from '@ionic/angular';
   selector: 'app-chip',
   templateUrl: './chip.page.html',
   styleUrls: ['./chip.page.scss'],
-  imports: [IonicModule, CommonModule, RouterModule]
+  imports: [IonicModule, RouterModule]
 })
 export class ChipPage implements OnInit {
 

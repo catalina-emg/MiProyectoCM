@@ -1,4 +1,4 @@
-import { CommonModule } from '@angular/common';
+
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
@@ -13,7 +13,7 @@ interface estlista {
   selector: 'app-inicio',
   templateUrl: './inicio.page.html',
   styleUrls: ['./inicio.page.scss'],
-  imports: [IonicModule, CommonModule, RouterModule],
+  imports: [IonicModule, RouterModule],
 })
 export class InicioPage {
 

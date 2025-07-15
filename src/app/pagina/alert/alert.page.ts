@@ -1,4 +1,4 @@
-import { CommonModule } from '@angular/common';
+
 import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
@@ -10,7 +10,7 @@ import type { OverlayEventDetail } from '@ionic/core';
   selector: 'app-alert',
   templateUrl: './alert.page.html',
   styleUrls: ['./alert.page.scss'],
-  imports: [IonicModule, CommonModule, RouterModule, ComponentesModule],
+  imports: [IonicModule, RouterModule, ComponentesModule],
   
 })
 
